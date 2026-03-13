@@ -8,10 +8,10 @@ export function Cta() {
     <Wrapper className="py-16">
       <section className="flex flex-col items-center justify-center gap-8 relative w-full bg-gradient-to-r from-[#F0075A] to-[#501283] h-80 text-center text-white">
         <div className="flex flex-col items-center gap-4 z-10">
-          <h2 className="text-4xl md:text-7xl font-mono font-semibold max-w-4xl tracking-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-6xl font-mono font-semibold max-w-4xl tracking-tight">
             Sign up for early Alpha
           </h2>
-          <p className="text-lg md:text-2xl max-w-xl font-light opacity-90">
+          <p className="text-lg md:text-lg lg:text-2xl max-w-lg font-light opacity-90">
             Subscribe now to get early alpha from our creators and 10X your
             portfolio
           </p>

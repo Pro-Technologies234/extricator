@@ -8,7 +8,7 @@ type Props = ListItem<ArtCard>;
 export function ArtListItem({ data }: Props) {
   const { name, price, likes } = data;
   return (
-    <div className=" h-100 gap-2 flex flex-col justify-between ">
+    <div className=" h-80 md:h-100 gap-2 flex flex-col justify-between ">
       <div className="bg-card flex-1 relative overflow-hidden border-2 border-secondary ">
         <div className=" absolute inset-x-0 p-4 flex justify-end z-1">
           <Button variant={"inverted"} className=" text-red-500">

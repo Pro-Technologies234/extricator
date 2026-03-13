@@ -7,7 +7,7 @@ import { teamData } from "@/constants/team";
 export function Team() {
   return (
     <Wrapper className=" items-center py-16 gap-18">
-      <section className="grid grid-cols-5 items-center gap-4  relative justify-between w-full">
+      <section className="grid lg:grid-cols-5 items-center gap-4  relative justify-between w-full">
         <div className=" space-y-2 col-span-2">
           <h2 className=" text-3xl md:text-6xl max-w-xl font-sans tracking-tighter">
             Meet the Team

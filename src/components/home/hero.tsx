@@ -40,14 +40,14 @@ export function Hero() {
             Go to market
           </Button>
         </div>
-        <div className=" flex justify-center items-center -space-x-6 mt-6">
-          <div className=" w-85 h-72 relative">
+        <div className=" flex justify-center items-center -space-x-12 md:-space-x-6 mt-6 overflow-hidden">
+          <div className=" w-32 h-30 md:w-62 md:h-52 lg:w-85 lg:h-72 relative">
             <Image src={"/images/home/hero_1.png"} alt={"hero_1.png"} fill />
           </div>
-          <div className=" w-85 h-72 relative -z-1 mb-20">
+          <div className=" w-44 h-40 md:w-62 md:h-52 lg:w-85 lg:h-72 relative -z-1 mb-20">
             <Image src={"/images/home/hero_2.png"} alt={"hero_1.png"} fill />
           </div>
-          <div className=" w-85 h-72 relative">
+          <div className=" w-32 h-30 md:w-62 md:h-52 lg:w-85 lg:h-72 relative">
             <Image src={"/images/home/hero_3.png"} alt={"hero_1.png"} fill />
           </div>
         </div>
